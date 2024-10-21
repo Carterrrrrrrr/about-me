@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: #000;
+    font-family: Baskervville;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+}
+
+h2{
+    text-align: center;
+    color: #000;
+    font-family: Baskervville;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+}
+
+h3{
+    text-align: center;
+    color: #000;
+    font-family: Baskervville;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: normal;
+}
+
+p{
+    text-align: center;
+    color: #000;
+    font-family: Baskervville;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1;
+    line-height: normal;
+    margin: 19px
+}
+
+
+.graybox{
+    background-color: #D9D9D9;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+.clickable{
+    background-color: rgb(166, 166, 166);
+    transition:all .2s ease-in-out;
+    padding:5px;
+    margin: 10px;
+}
+.clickable:hover{
+
+    background-color: rgb(0, 183, 255);
+    border-radius: 4px;
+    transform: scale(1.1);
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
